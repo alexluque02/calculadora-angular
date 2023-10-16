@@ -16,11 +16,12 @@
         <button class="button btn btn-primary" (click)="addToScreen(2)">2</button>
         <button class="button btn btn-primary" (click)="addToScreen(3)">3</button>
         <button class="button btn btn-primary" (click)="addToScreen(0)">0</button>
+        <button class="button btn btn-primary" (click)="borrar()">CE</button>
       </div>
       <div class="col-md-6">
-        <button class="button btn btn-primary">+</button>
-        <button class="button btn btn-primary">-</button>
-        <button class="button btn btn-primary">=</button>
+        <button class="button btn btn-primary" (click)="sumar()">+</button>
+        <button class="button btn btn-primary" (click)="restar()">-</button>
+        <button class="button btn btn-primary" (click)="calcular()">=</button>
       </div>
     </div>
   </div>
